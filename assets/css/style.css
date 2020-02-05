@@ -11,3 +11,19 @@ body {
 }
 
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/*----------- Colours -------------*/
+.dark-background {
+    background-color: #2f3e4f;
+    color: #fafafa;
+}
+
+
+/*----------- Footer -------------*/
+.spacing-inside {
+    padding: 20px;
+}
