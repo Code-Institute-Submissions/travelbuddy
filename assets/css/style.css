@@ -7,12 +7,17 @@ light green: #55B99E
 
 /*----------- Global settings -------------*/
 body {
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
@@ -23,11 +28,45 @@ h1, h2, h3, h4, h5, h6 {
     color: #fafafa;
 }
 
+/*----------- Header -------------*/
+.logo-image {
+    width: 350px;
+}
+
+@media (min-width: 576px) {
+    .navbar {
+        box-shadow: 0px 2px 5px #ebeaea;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .logo-image {
+        width: 200px;
+    }
+}
+
+
 /*----------- Typography -------------*/
 
 .card-text {
     font-weight: 300;
 }
+
+.script-heading {
+    font-family: "Playfair Display", serif;
+}
+
+
+/*----------- Jumbotron Overides -------------*/
+.jumbotron {
+    background-color: transparent;
+    background-image: url("../images/jumbotron-bg.svg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+
 
 /*----------- Testimonials -------------*/
 .testimonial-photo {
