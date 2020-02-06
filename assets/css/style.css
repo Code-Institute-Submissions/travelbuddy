@@ -29,6 +29,20 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
+/*----------- Testimonials -------------*/
+.testimonial-photo {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border: 2px solid #2F3E4F;
+    border-radius: 50%;
+}
+
+.full-height {
+    display: block;
+    height: 100%;
+    float: left;
+}
 
 /*----------- Footer -------------*/
 .spacing-inside {
