@@ -57,6 +57,10 @@ h6 {
     font-family: "Playfair Display", serif;
 }
 
+.text-light-font {
+    font-weight: 300;
+}
+
 
 /*----------- Jumbotron Overides -------------*/
 .jumbotron {
