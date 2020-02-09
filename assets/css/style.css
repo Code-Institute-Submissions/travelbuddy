@@ -87,6 +87,21 @@ h6 {
     float: left;
 }
 
+/*----------- Host Page -------------*/
+.host-teaser-box {
+    height: 45vh;
+    background-image: url(../images/host-teaser-lg.jpg);
+    padding: 20px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.teaser-box {
+    height: 100%;
+    padding: 20px;
+    background: rgba(255,255,255,0.85);
+}
+
 /*----------- Footer -------------*/
 .spacing-inside {
     padding: 20px;
