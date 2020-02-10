@@ -22,10 +22,15 @@ h6 {
     font-weight: 500;
 }
 
+
 /*----------- Colours -------------*/
 .dark-background {
     background-color: #2f3e4f;
     color: #fafafa;
+}
+
+.light-background {
+    background-color: #ededed;
 }
 
 .light-green {
@@ -108,9 +113,22 @@ h6 {
     background-position: center center;
 }
 
-.teaser-box {
+.teaser-box-text {
     padding: 20px;
     background: rgba(255,255,255,0.85);
+}
+
+.host-teaser-heading {
+    font-size: 3rem;
+}
+
+@media (max-width: 576px) {
+    .host-teaser-box {
+        height: 65vh;
+    }
+    .host-teaser-heading {
+        font-size: 2rem;
+    }
 }
 
 /*----------- Footer -------------*/

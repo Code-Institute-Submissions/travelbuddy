@@ -32,17 +32,17 @@
                     <a class="nav-link px-lg-3" href="index.html">Home</a>
                 </li>
                 <li class="nav-item px-lg-3 dropdown">
-                    <a class="nav-link dropdown-toggle font-weight-bold" data-toggle="dropdown" href="#" role="button"
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                         aria-haspopup="true" aria-expanded="false">Locations</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item active" href="london.html">London</a>
+                        <a class="dropdown-item" href="london.html">London</a>
                         <a class="dropdown-item" href="madrid.html">Madrid</a>
                         <a class="dropdown-item" href="rome.html">Rome</a>
                         <a class="dropdown-item" href="dublin.html">Dublin</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-lg-3" href="become-host.html">Become a Host</a>
+                    <a class="nav-link px-lg-3 active font-weight-bold" href="become-host.html">Become a Host</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link pr-lg-3" href="contact.html">Contact</a>
@@ -55,39 +55,88 @@
 
     <section class="container-fluid mb-4">
         <div class="row align-items-end host-teaser-box">
-            <div class="col-lg-9 teaser-box align-self-end">
-                <h3 class="text-light-font display-4 mb-3">Become a host and earn money</h3>
+            <div class="col-md-auto teaser-box-text align-self-end">
+                <h3 class="text-light-font host-teaser-heading mb-3">Become a host and earn money</h3>
                 <h5>Join TravelBuddy community today</h5>
             </div>
         </div>
     </section>
     <section class="container mb-4">
         <div class="row">
-            <div class="col">
+            <div class="col-12 col-lg-4">
                 <h3><i class="far fa-check-circle fa-2x mb-3 light-green"></i><br />Benefits of being TravelBuddy host
                 </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel arcu sit amet augue rutrum semper
                     sed quis justo. Nam suscipit urna ex, vitae tincidunt leo scelerisque vitae. Sed quis aliquam mi, eu
                     gravida nisl. </p>
             </div>
-            <div class="col">
-                <h3><i class="fas fa-shield-alt fa-2x mb-3 light-green"></i><br />You're in a good company</h3>
+            <div class="col-12 col-lg-4">
+                <h3><i class="fas fa-user-check fa-2x mb-3 light-green"></i><br />You're in a good company</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel arcu sit amet augue rutrum semper
                     sed quis justo. Nam suscipit urna ex, vitae tincidunt leo scelerisque vitae. Sed quis aliquam mi, eu
                     gravida nisl. </p>
             </div>
-            <div class="col">
-                <h3><i class="far fa-check-circle fa-2x mb-3 light-green"></i><br />Benefits of being TravelBuddy host
+            <div class="col-12 col-lg-4">
+                <h3><i class="far fa-handshake fa-2x mb-3 light-green"></i><br />Hassle free payment options
                 </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel arcu sit amet augue rutrum semper
                     sed quis justo. Nam suscipit urna ex, vitae tincidunt leo scelerisque vitae. Sed quis aliquam mi, eu
                     gravida nisl. </p>
             </div>
         </div>
+        <hr class="my-5">
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h2>Sign up the registration form</h2>
+                <p>If you'd like to join TravelBuddy community and start earngnig money as a host sign up the
+                    registration form.</p>
+                    <p>One of our team members will guide through the registration process.</p>
+                    <h5>Hope to see you soon!</h5>
+            </div>
+            <div class="col-12 col-md-6 p-4 light-background rounded">
+                <h5 class="light-text mb-4">TravelBuddy registration form</h5>
+                <form>
+                    <div class="row mb-4">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="col">
+                            <input type="tel" class="form-control" placeholder="Phone">
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Availability</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Select the option...</option>
+                          <option>Full year, Full Time</option>
+                          <option>Full year, Weekends only</option>
+                          <option>Seasonal, Full Time</option>
+                          <option>Seasonal, Weekends Only</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlInput1">Location</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your location">
+                      </div>
+                      <button type="submit" class="btn btn-primary mb-2">Submit registration</button>
+                </form>
+            </div>
+        </div>
     </section>
 
     <!--   Footer -->
-    <footer class="container-flex dark-background">
+    <footer class="container-flex dark-background mt-4">
         <div class="row spacing-inside align-items-center">
             <div class="col-md-4 col-sm-12 text-center text-md-left mb-3">
                 <a href="index.html"><img src="assets/images/tb_logo_footer.svg" width="auto" height="30px" /></a>
