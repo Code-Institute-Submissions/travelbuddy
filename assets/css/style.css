@@ -6,6 +6,10 @@ light green: #55B99E
 ------------------*/
 
 /*----------- Global settings -------------*/
+html {
+    min-height: 100%;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -130,6 +134,15 @@ h6 {
         font-size: 2rem;
     }
 }
+
+/*----------- Contact Page -------------*/
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
 
 /*----------- Footer -------------*/
 .spacing-inside {
