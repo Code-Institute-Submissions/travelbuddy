@@ -136,6 +136,10 @@ h6 {
 }
 
 /*----------- Contact Page -------------*/
+.map-container {
+    height: 400px;
+    position: relative;
+}
 .map-container iframe{
     left:0;
     top:0;
