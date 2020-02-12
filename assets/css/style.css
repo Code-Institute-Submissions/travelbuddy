@@ -150,6 +150,9 @@ h6 {
     }
 
 /*----------- Footer -------------*/
+footer {
+    overflow-x: hidden;
+}
 .spacing-inside {
     padding: 20px;
 }
