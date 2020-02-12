@@ -103,6 +103,17 @@ h6 {
     border-radius: 50%;
 }
 
+@media (max-width: 576px) {
+    .testimonial-photo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .testimonial-text {
+        margin-left: 90px;
+    }
+}
+
 .full-height {
     display: block;
     height: 100%;
