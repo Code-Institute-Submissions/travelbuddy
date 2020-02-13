@@ -13,7 +13,6 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    overflow-x: hidden;
 }
 
 
@@ -23,7 +22,6 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
 
@@ -103,17 +101,6 @@ h6 {
     border-radius: 50%;
 }
 
-@media (max-width: 576px) {
-    .testimonial-photo {
-        width: 90px;
-        height: 90px;
-    }
-
-    .testimonial-text {
-        margin-left: 90px;
-    }
-}
-
 .full-height {
     display: block;
     height: 100%;
@@ -148,10 +135,6 @@ h6 {
 }
 
 /*----------- Contact Page -------------*/
-.map-container {
-    height: 400px;
-    position: relative;
-}
 .map-container iframe{
     left:0;
     top:0;
