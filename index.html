@@ -7,9 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.4.1/flatly/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Playfair+Display:400,700,800&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>TravelBuddy Accommodation Service</title>
 </head>
@@ -21,8 +18,7 @@
         <a class="navbar-brand" href="index.html">
             <img src="assets/images/tb-logo.svg" class="align-top img-fluid pl-md-5 logo-image" alt="TravelBuddy logo">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -31,8 +27,7 @@
                     <a class="nav-link active px-lg-3 font-weight-bold" href="index.html">Home</a>
                 </li>
                 <li class="nav-item px-lg-3 dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                        aria-haspopup="true" aria-expanded="false">Locations</a>
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Locations</a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="london.html">London</a>
                         <a class="dropdown-item" href="madrid.html">Madrid</a>
@@ -52,155 +47,164 @@
 
 
     <!-- Introduction -->
+    <main>
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mb-4 mt-sm-4 align-items-center">
+                        <h1 class="display-4 script-heading mb-4">Looking for exciting vacation ideas?</h1>
+                        <p class="lead">TravelBuddy offers a unique tourist experience with a help of our lovely hosts, offering you a cosy accommodation and a personalised journey in their hometown.</p>
+                        <hr class="my-4">
+                        <p>Browse a large selection of hosts and plan your next vacation.</p>
+                        <div class="btn-group" role="group">
+                            <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Location
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <a class="dropdown-item" href="london.html">London</a>
+                                <a class="dropdown-item" href="madrid.html">Madrid</a>
+                                <a class="dropdown-item" href="rome.html">Rome</a>
+                                <a class="dropdown-item" href="dublin.html">Dublin</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4 order-first order-sm-last">
+                        <img src="assets/images/jumbotron-image.svg" alt="Introduction image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <div class="jumbotron">
-        <div class="container">
+
+        <!-- Locations Cards -->
+
+        <section class="container">
             <div class="row">
-                <div class="col-md-6 mb-4 mt-sm-4 align-items-center">
-                    <h1 class="display-4 script-heading mb-4">Looking for exciting vacation ideas?</h1>
-                    <p class="lead">TravelBuddy offers a unique tourist experience with a help of our lovely hosts,
-                        offering you a cosy accommodation and a personalised journey in their hometown.</p>
-                    <hr class="my-4">
-                    <p>Browse a large selection of hosts and plan your next vacation.</p>
-                    <div class="btn-group" role="group">
-                        <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Select Location
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                            <a class="dropdown-item" href="london.html">London</a>
-                            <a class="dropdown-item" href="madrid.html">Madrid</a>
-                            <a class="dropdown-item" href="rome.html">Rome</a>
-                            <a class="dropdown-item" href="dublin.html">Dublin</a>
+                <div class="col-12">
+                    <h3 class="mt-4 mb-3">Most popular locations this month</h3>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card shadow">
+                        <img src="assets/images/london-card.jpg" class="card-img-top" alt="London">
+                        <div class="card-body">
+                            <h5 class="card-title">London</h5>
+                            <h6 class="card-subtitle mb-2">Visit London Museums with a History Ph.D</h6>
+                            <p class="card-text">3 Days Experience<br />From €395/person</p>
+                            <a href="london.html" class="btn btn-danger">View Details</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 mb-4 order-first order-sm-last">
-                    <img src="assets/images/jumbotron-image.svg" alt="Introduction image" class="img-fluid">
+                <div class="col-md-3 mb-4">
+                    <div class="card shadow">
+                        <img src="assets/images/madrid-card.jpg" class="card-img-top" alt="Madrid">
+                        <div class="card-body">
+                            <h5 class="card-title">Madrid</h5>
+                            <h6 class="card-subtitle mb-2">Discover the World of World Famous Iberico Ham</h6>
+                            <p class="card-text">5 Days Experience<br />From €495/person</p>
+                            <a href="madrid.html" class="btn btn-danger">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card shadow">
+                        <img src="assets/images/rome-card.jpg" class="card-img-top" alt="Rome">
+                        <div class="card-body">
+                            <h5 class="card-title">Rome</h5>
+                            <h6 class="card-subtitle mb-2">Pasta Making Experience with Wine Tasting</h6>
+                            <p class="card-text">4 Days Experience<br />From €465/person</p>
+                            <a href="rome.html" class="btn btn-danger">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card shadow">
+                        <img src="assets/images/dublin-card.jpg" class="card-img-top" alt="Dublin">
+                        <div class="card-body">
+                            <h5 class="card-title">Dublin</h5>
+                            <h6 class="card-subtitle mb-2">Traditional Irish Pub Crawl on Temple Street</h6>
+                            <p class="card-text">3 Days Experience<br />From €425/person</p>
+                            <a href="dublin.html" class="btn btn-danger">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-5">
+        </section>
+
+
+        <!--   Testimonials -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="mt-4 mb-3">Guest Reviews</h3>
+                </div>
+                <div class="col-md-6 col-xs-12 mb-4">
+                    <div class="full-height mr-3 mb-4">
+                        <img src="assets/images/testimonial1-linda.jpg" alt="testimonial photo linda" class="testimonial-photo" />
+                    </div>
+                    <div class="testimonial-text">
+                        <h6>Linda, New York
+                            <span class="text-muted">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i>
+                            </span>
+                        </h6>
+                        <p>It’s very unique and special. The three pubs are well-organized from quiet to loud music. John has a very thorough understanding of different instruments and music. She is very thoughtful to get us seats even in a very busy pub.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <div class="full-height mr-3 mb-4">
+                        <img src="assets/images/testimonial1-charles.jpg" alt="testimonial photo charles" class="testimonial-photo">
+                    </div>
+                    <div class="testimonial-text">
+                        <h6>Charles, Paris
+                            <span class="text-muted"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i>
+                            </span>
+                        </h6>
+                        <p>This was a lot of fun. We went to three different pubs and got to experience different styles and groups. I would highly recommend this to anyone who wants to experience some trad music, but doesn’t know where to start. Definitely
+                            not a tourist trap. We loved it!</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-
-    <!-- Locations Cards -->
-
-    <section class="container">
-        <div class="row">
-            <div class="col-12">
-                <h3 class="mt-4 mb-3">Most popular locations this month</h3>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="card shadow">
-                    <img src="assets/images/london-card.jpg" class="card-img-top" alt="London">
-                    <div class="card-body">
-                        <h5 class="card-title">London</h5>
-                        <h6 class="card-subtitle mb-2">Visit London Museums with a History Ph.D</h6>
-                        <p class="card-text">3 Days Experience<br />From €395/person</p>
-                        <a href="london.html" class="btn btn-danger">View Details</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="card shadow">
-                    <img src="assets/images/madrid-card.jpg" class="card-img-top" alt="Madrid">
-                    <div class="card-body">
-                        <h5 class="card-title">Madrid</h5>
-                        <h6 class="card-subtitle mb-2">Discover the World of Iberico Ham</h6>
-                        <p class="card-text">5 Days Experience<br />From €495/person</p>
-                        <a href="madrid.html" class="btn btn-danger">View Details</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="card shadow">
-                    <img src="assets/images/rome-card.jpg" class="card-img-top" alt="Rome">
-                    <div class="card-body">
-                        <h5 class="card-title">Rome</h5>
-                        <h6 class="card-subtitle mb-2">Pasta Making Experience with Wine Tasting</h6>
-                        <p class="card-text">4 Days Experience<br />From €465/person</p>
-                        <a href="rome.html" class="btn btn-danger">View Details</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 mb-4">
-                <div class="card shadow">
-                    <img src="assets/images/dublin-card.jpg" class="card-img-top" alt="Dublin">
-                    <div class="card-body">
-                        <h5 class="card-title">Dublin</h5>
-                        <h6 class="card-subtitle mb-2">Traditional Irish Pub crawl on Temple Street</h6>
-                        <p class="card-text">3 Days Experience<br />From €425/person</p>
-                        <a href="dublin.html" class="btn btn-danger">View Details</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr class="my-5">
-    </section>
-
-
-    <!--   Testimonials -->
-
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h3 class="mt-4 mb-3">Guest Reviews</h3>
-            </div>
-            <div class="col-md-6 col-xs-12 mb-4">
-                <div class="full-height mr-3">
-                    <img src="assets/images/testimonial1-linda.jpg" alt="testimonial photo linda"
-                        class="testimonial-photo">
-                </div>
-                <div class="testimonial-text">
-                    <h6>Linda, New York <span class="text-muted"><i class="fas fa-star"></i><i
-                                class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                class="fas fa-star-half"></i></span>
-                    </h6>
-                    <p>It’s very unique and special. The three pubs are well-organized from quiet to loud music. John
-                        has a very thorough understanding of different instruments and music. She is very thoughtful to
-                        get us seats even in a very busy pub.</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-xs-12 mb-4">
-                <div class="full-height mr-3">
-                    <img src="assets/images/testimonial1-charles.jpg" alt="testimonial photo charles"
-                        class="testimonial-photo">
-                </div>
-                <div class="testimonial-text">
-                    <h6>Charles, Paris <span class="text-muted"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                class="fas fa-star"></i><i class="fas fa-star-half"></i></span></h6>
-                    <p>This was a lot of fun. We went to three different pubs and got to experience different styles and
-                        groups. I would highly recommend this to anyone who wants to experience some trad music, but
-                        doesn’t
-                        know where to start. Definitely not a tourist trap. We loved it!</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    </main>
 
     <!--   Footer -->
-    <footer class="container-flex dark-background mt-4">
+    <footer class="container-flex dark-background mt-5">
         <div class="row p-2 align-items-center">
             <div class="col-md-4 col-sm-12 text-center text-md-left mb-3">
-                <a href="index.html"><img src="assets/images/tb_logo_footer.svg" width="auto" height="30px"
-                        alt="Footer logo" /></a>
+                <a href="index.html"><img src="assets/images/tb_logo_footer.svg" height="30px" alt="Footer logo" /></a>
             </div>
             <div class="col-md-4 col-sm-6 text-center">
                 <ul class="list-inline">
-                    <li class="list-inline-item"><a class="nav-link active px-2" href="#"><i
-                                class="fab fa-facebook-square fa-2x"></i></a></li>
-                    <li class="list-inline-item"><a class="nav-link px-2" href="#"><i
-                                class="fab fa-linkedin fa-2x"></i></a></li>
-                    <li class="list-inline-item"><a class="nav-link px-2" href="#"><i
-                                class="fab fa-twitter-square fa-2x"></i></a></li>
+                    <li class="list-inline-item">
+                        <a class="nav-link active px-2" href="https://facebook.com" target="_blank">
+                            <i class="fab fa-facebook-square fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="nav-link px-2" href="https://linkedin.com" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="nav-link px-2" href="https://twitter.com" target="_blank">
+                            <i class="fab fa-twitter-square fa-2x"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="col-md-4 col-sm-6 text-center text-lg-right">
                 <ul class="list-inline">
-                    <li class="list-inline-item"><a class="nav-link active px-2" href="index.html">Home</a></li>
-                    <li class="list-inline-item"><a class="nav-link px-2" href="become-host.html">Become A Host</a>
+                    <li class="list-inline-item">
+                        <a class="nav-link active px-2" href="index.html">Home</a>
                     </li>
-                    <li class="list-inline-item"><a class="nav-link px-2" href="contact.html">Contact</a></li>
+                    <li class="list-inline-item">
+                        <a class="nav-link px-2" href="become-host.html">Become A Host</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="nav-link px-2" href="contact.html">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
