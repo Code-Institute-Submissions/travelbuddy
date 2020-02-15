@@ -132,6 +132,9 @@ h6 {
     height: 100%;
     width: 100%;
     position: absolute;
+    border: none;
+    box-shadow: 0 0 10px rgb(214, 214, 214);
+    border-radius: 5px;
 }
 
 
