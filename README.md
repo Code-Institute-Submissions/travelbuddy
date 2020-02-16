@@ -26,7 +26,7 @@ The wireframes were created prior to coding process using Balsamiq Mockups deskt
 - [Location on Mobile][6]
 - [Become a Host on Mobile][7]
 ### Surface
-The main font used on the website is “Montserrat” and some headings use “Playfair Display” to stand out more. Both fonts are linked from [Google Fonts][8] library in the stylesheet file.
+The main font used on the website is “Montserrat” and some headings use “Playfair Display” to stand out more. Both fonts are linked from [Google Fonts][8] library in the stylesheet file.  
 I use simple, two colour palette on logo, buttons and backgrounds to keep the site consistent and matching company brand colours.
 ## Features
 ### Existing Features
@@ -44,8 +44,8 @@ During the testing phase the most common issues were related to sizing, items no
 I’ve made sure both forms do not allow submissions without missing information using ‘required’ parameter on selected fields. Thank to Bootstrap’s built in validation the forms will not allow incorrect data passed in email and phone fields.
 The site was validated using both HTML and CSS validators and all pages passed the tests successfully.
 ## Deployment
-The site is hosted at GitHub pages, using directly the master branch.  In order to make the pages visible on GitHub pages I had to turn on the function at the Settings tab inside my repository. The site is being updated automatically each time there’s a new commit uploaded. 
-In case somebody wishes to clone the repository it can be done with by downloading the zip file containing the whole repository or use `git clone  https://github.com/redlik/travelbuddy.git` command in the terminal window. The site can be run locally without a need to use a web server, each page will open in any browser installed.
+The site is hosted at GitHub pages, using directly the master branch.  In order to make the pages visible on GitHub pages I had to turn on the function at the Settings tab inside my repository. The site is being updated automatically each time there’s a new commit uploaded.  
+In scenario when somebody wishes to clone the repository it can be done with by downloading the zip file containing the whole repository or use `git clone  https://github.com/redlik/travelbuddy.git` command in the terminal window. The site can be run locally without a need to use a web server, each page will open in any browser installed.
 ## Credits
 The site content was created especially for the purpose of the project with a help from friend of mine, Sean Powers, the owner of [Irish Experience Tours][9].
 Photography and vector graphics used on the website come from royalty free websites:
