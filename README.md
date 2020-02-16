@@ -1,4 +1,4 @@
-![TravellBuddy logo](https://github.com/redlik/travelbuddy/blob/master/assets/images/tb_logo_flat.png "Travel Buddy logo")
+![TravellBuddy logo](https://github.com/redlik/travelbuddy/blob/master/assets/images/tb_logo_flat.svg "Travel Buddy logo")
 # TravelBuddy
 TravelBuddy is a portal for people looking for organised experience tours at locations around the world. It also allows people providing such an experience to become a part of the TravelBuddy community and have an exposure on the site with their programme, pricing and duration of the tours.
 ## UX
